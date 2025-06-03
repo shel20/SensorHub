@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SensorHub", "SensorHub\SensorHub.vcxproj", "{3E0584F2-B000-4F08-922D-C8E940F92BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{471E0969-4767-4B14-BB6D-653B4D7BA284}"
+	ProjectSection(SolutionItems) = preProject
+		cli.c = cli.c
+		cli.h = cli.h
+		i2c_mock.c = i2c_mock.c
+		i2c_mock.h = i2c_mock.h
+		main.c = main.c
+		sensor.c = sensor.c
+		sensor.h = sensor.h
+		uart.c = uart.c
+		uart.h = uart.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Debug|x64.ActiveCfg = Debug|x64
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Debug|x64.Build.0 = Debug|x64
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Debug|x86.Build.0 = Debug|Win32
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Release|x64.ActiveCfg = Release|x64
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Release|x64.Build.0 = Release|x64
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Release|x86.ActiveCfg = Release|Win32
+		{3E0584F2-B000-4F08-922D-C8E940F92BEF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31649921-7308-42C1-9CBD-55B0A1B15D83}
+	EndGlobalSection
+EndGlobal

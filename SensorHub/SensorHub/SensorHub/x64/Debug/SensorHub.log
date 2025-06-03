@@ -1,0 +1,8 @@
+﻿  cli.c
+  i2c_mock.c
+C:\Users\Shell\Desktop\C projects\sensor-hub\i2c_mock.c(6,11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.c
+  sensor.c
+  uart.c
+  Generating Code...
+  SensorHub.vcxproj -> C:\Users\Shell\Desktop\C projects\SensorHub\SensorHub\x64\Debug\SensorHub.exe
